@@ -90,6 +90,10 @@ button:hover {
   background: #e31e24;
 }
 
+.image-back > img {
+  padding: 1em;
+}
+
 .content > ul > li {
   list-style: none;
   font-size: 1.2rem;
@@ -189,10 +193,9 @@ footer > p {
   }
 
   .image-back > img {
-    position: relative;
-    top: 1em;
     width: 30%;
     height: auto;
+    padding: 2em;
   }
 
   .text {
